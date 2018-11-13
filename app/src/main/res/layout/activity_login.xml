@@ -24,7 +24,6 @@
             android:layout_width="325dp"
             android:layout_height="60dp"
             android:layout_marginBottom="12dp"
-            android:background="@color/colorWhite"
             app:hintEnabled="false"
             app:passwordToggleEnabled="true">
 
@@ -32,12 +31,8 @@
                 android:id="@+id/login_password"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/colorWhite"
-                android:hint="@string/login_hint_password"
                 android:inputType="textPassword"
-                android:padding="10dp"
-                android:textColor="@color/colorFont"
-                android:textColorHint="@color/colorHint" />
+                android:padding="10dp" />
         </android.support.design.widget.TextInputLayout>
 
         <Button
